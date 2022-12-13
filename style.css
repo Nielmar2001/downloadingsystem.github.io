@@ -1,0 +1,110 @@
+/*ALL STYLE FOR LIST*/
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/*NAV BAR*/
+.nav-bar{
+  background: #2ecbe9;
+  margin-top: -10px;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+}
+
+/*NAV BAR TABS*/
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: black;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+/*ACTIVE TAB*/
+a.active{
+  color: white;
+  background: black;
+  transition: 0s;
+}
+/*HOVER ON SELECTED TAB*/
+a:hover{
+  color: gray;
+  transition: 0s;
+}
+
+/*BUTTONS*/
+.btn_login{
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	font-size: 16px;
+	padding: 5px 10px;
+	cursor: pointer;
+	border: 2px outset black;
+	border-radius: 5px;
+}
+.btn_logout{
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	font-size: 16px;
+	padding: 5px 10px;
+	cursor: pointer;
+	border: 2px outset black;
+	border-radius: 5px;
+}
+.btn_about{
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	font-size: 16px;
+	padding: 5px 10px;
+	cursor: pointer;
+	border: 2px outset black;
+	border-radius: 5px;
+
+}
+
+.btn_login:hover{
+	background: #30a2f2;
+	color: white;
+}
+.btn_logout:hover{
+	background: #30a2f2;
+	color: white;
+}
+.btn_about:hover{
+	background: #30a2f2;
+	color: white;
+}
+
+.form-bg{
+	background: rgb(46,203,233);
+	background: linear-gradient(0deg, rgba(46,203,233,1) 0%, rgba(199,245,254,1) 52%, rgba(46,203,233,1) 100%);
+}
+.audio{
+	position: center;
+	padding-right: 50%;
+
+}
+
+
+/*RESPONSIVE Fixed Sizes*/
+@media only screen and (max-width: 960px){
+
+@media only screen and (max-width: 600px){
+
+@media only screen and (max-width: 400px){
